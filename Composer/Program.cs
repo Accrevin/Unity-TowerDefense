@@ -51,7 +51,6 @@ namespace Composer
                 else
                 {
                     Console.WriteLine($"Invalid note format at index {i + 1}: {noteList[i]}");
-                    // Optionally, you may choose to set FrequencyList[i] to a default value or take other actions.
                     continue;
                 }
 
