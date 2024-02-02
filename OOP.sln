@@ -5,11 +5,11 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingChallenges", "Assignment1\CodingChallenges.csproj", "{1E85CA96-0EBF-4872-90DB-E85540C118FE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessingGame", "..\..\..\var06katie\source\repos\ObjectOrientatedProgramming\GuessingGame\GuessingGame\GuessingGame.csproj", "{D2B20C87-F25F-4B5E-A3D1-F85F3999D04C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Race", "Race\Race.csproj", "{624C66AC-510E-4AF4-948E-8BA00C8DC502}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComposerAssignment", "..\..\..\var06katie\source\repos\ObjectOrientatedProgramming\Composer\ComposerAssignment.csproj", "{21F6001A-32BD-4667-91B3-E2A9FE0BA5B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composer", "Composer\Composer.csproj", "{2F605B89-D6F1-4CA7-A4A9-24834011668B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Race", "Race\Race.csproj", "{624C66AC-510E-4AF4-948E-8BA00C8DC502}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessingGame", "GuessingGame\GuessingGame.csproj", "{EED76B3A-4FD7-4FF5-8341-778117DE7A01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +21,18 @@ Global
 		{1E85CA96-0EBF-4872-90DB-E85540C118FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E85CA96-0EBF-4872-90DB-E85540C118FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E85CA96-0EBF-4872-90DB-E85540C118FE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D2B20C87-F25F-4B5E-A3D1-F85F3999D04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2B20C87-F25F-4B5E-A3D1-F85F3999D04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2B20C87-F25F-4B5E-A3D1-F85F3999D04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2B20C87-F25F-4B5E-A3D1-F85F3999D04C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{21F6001A-32BD-4667-91B3-E2A9FE0BA5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21F6001A-32BD-4667-91B3-E2A9FE0BA5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21F6001A-32BD-4667-91B3-E2A9FE0BA5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21F6001A-32BD-4667-91B3-E2A9FE0BA5B7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{624C66AC-510E-4AF4-948E-8BA00C8DC502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{624C66AC-510E-4AF4-948E-8BA00C8DC502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{624C66AC-510E-4AF4-948E-8BA00C8DC502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{624C66AC-510E-4AF4-948E-8BA00C8DC502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F605B89-D6F1-4CA7-A4A9-24834011668B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F605B89-D6F1-4CA7-A4A9-24834011668B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F605B89-D6F1-4CA7-A4A9-24834011668B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F605B89-D6F1-4CA7-A4A9-24834011668B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EED76B3A-4FD7-4FF5-8341-778117DE7A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED76B3A-4FD7-4FF5-8341-778117DE7A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED76B3A-4FD7-4FF5-8341-778117DE7A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED76B3A-4FD7-4FF5-8341-778117DE7A01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
