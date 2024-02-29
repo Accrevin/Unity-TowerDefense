@@ -294,7 +294,7 @@ class Dealer
         // Reveal facedown card
         Console.WriteLine($"Face-down card: {GetFaceDownCard()}");
 
-        while (GetHandValue() < 17)
+        while (GetHandValue() < 13)
         {
             Console.WriteLine("Dealer chooses to hit.");
             AddCard(deck.DrawCard());
