@@ -208,14 +208,14 @@ class Player
                 if (GetHandValue() > 21)
                 {
                     Console.WriteLine("Player went over 21! Dealer wins.");
-                    return true; // Player's turn is over
+                    return true;
                 }
             }
 
             else if (input == "S")
             {
                 Console.WriteLine("Player chooses to stay.");
-                return true; // Player's turn is over
+                return true;
             }
 
             //please dont type something invalid
@@ -284,7 +284,7 @@ class Dealer
 
     public string GetFaceDownCard()
     {
-        return hand[1].ToString(); // Returns the face-down card
+        return hand[1].ToString();
     }
 
     public bool PlayTurn()
