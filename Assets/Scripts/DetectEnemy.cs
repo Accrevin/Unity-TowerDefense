@@ -29,7 +29,7 @@ public class Detectenemy : MonoBehaviour
 
         }
 
-        Debug.DrawRay(gameObject.transform.position, closest.transform.position, Color.blue);
+        //Debug.DrawRay(gameObject.transform.position, closest.transform.position, Color.blue);
 
 
     }
