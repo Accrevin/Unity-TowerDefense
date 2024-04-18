@@ -57,7 +57,7 @@ public class FireProjectile : MonoBehaviour
 
                         if (_closestEnemy != null && _CanSpawn == true)
                         {
-                            _spawnedProjectile = Instantiate(_projectilePrefab, transform.position + Vector3.up, Quaternion.identity);
+                            _spawnedProjectile = Instantiate(_projectilePrefab, transform.position, Quaternion.identity);
                             _spawnedProjectile.GetComponent<Projectile>().target = _closestEnemy.transform;
                             _CanSpawn = false;
                         }
